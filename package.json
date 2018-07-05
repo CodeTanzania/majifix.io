@@ -4,7 +4,7 @@
   "description": "MajiFix project website",
   "main": "gulpfile.js",
   "scripts": {
-    "serve": "gulp",
+    "serve": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
