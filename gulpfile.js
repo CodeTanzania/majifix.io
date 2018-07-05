@@ -50,21 +50,21 @@ gulp.task('css', function () {
     .pipe(sass())
     .pipe(autoPrefixer(AUTOPREFIXER_BROWSERS))
     .pipe(csscomb())
-    .pipe(gulp.dest('assets/css'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream())
     .pipe(csso())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('./css'));
 });
 
 gulp.task('js', function () {
   return gulp.src(jsFiles)
     .pipe(plumberNotifier())
     .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('assets/js'))
+    .pipe(gulp.dest('./js'))
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('assets/js'));
+    .pipe(gulp.dest('./js'));
 });
 
 gulp.task('watch', ['serve'], function () {
