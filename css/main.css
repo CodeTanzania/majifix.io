@@ -20,6 +20,9 @@ Table of contents
 9. responsive
 
 -------------------------------*/
+/*---------------------------------
+Overrides Theme variables
+----------------------------------*/
 /*-------------------------------
 typography
 -------------------------------*/
@@ -45,7 +48,7 @@ html
 
 a
 {
-    color: #7954ff;
+    color: #2a77ff;
 }
 a:hover
 {
@@ -98,7 +101,7 @@ p
 
 .text-purple-color
 {
-    color: #7954ff;
+    color: #2a77ff;
 }
 
 .text-paste-color
@@ -621,7 +624,7 @@ hero banner
 
     margin-bottom: 1rem; 
 
-    color: #7954ff;
+    color: #2a77ff;
 }
 .hero-banner .here-sub-title
 {
@@ -1222,7 +1225,7 @@ team social link
 }
 .js_team_member .owl-dots .owl-dot.active
 {
-    background: #7954ff;
+    background: #2a77ff;
 }
 
 .team-row .owl-item:nth-child(even)
@@ -1398,7 +1401,7 @@ count down
 
     margin: 0;
 
-    color: #7954ff;
+    color: #2a77ff;
 }
 .count-down .count-block span
 {
@@ -1422,7 +1425,7 @@ count down
 
     margin: 0 .5rem; 
 
-    color: #c9baff;
+    color: #90b8ff;
 }
 
 /*-------------------------------
@@ -1502,7 +1505,7 @@ form
 .contact-form .form-control:focus,
 .login-form .form-control:focus
 {
-    border-color: #7954ff;
+    border-color: #2a77ff;
     -webkit-box-shadow: none;
             box-shadow: none;
 }
@@ -1798,7 +1801,7 @@ road map timeline
     height: 24px;
 
     border: 1px solid #fff;
-    background: #7954ff;
+    background: #2a77ff;
 }
 .roadmap-timeline-list .rm-info
 {
@@ -1819,7 +1822,7 @@ road map timeline
     padding: 1rem 2rem;
 
     border-radius: 100px;
-    background: #7954ff;
+    background: #2a77ff;
     -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .08);
             box-shadow: 0 0 25px 0 rgba(0, 0, 0, .08); 
 
@@ -1845,7 +1848,7 @@ road map timeline
 
     content: '\f0d7';
 
-    color: #7954ff;
+    color: #2a77ff;
 }
 
 .roadmap-timeline-list.alt .rm-date
@@ -1867,7 +1870,7 @@ road map timeline
 {
     top: 36px;
 
-    background: #7954ff;
+    background: #2a77ff;
 }
 
 .roadmap-timeline-list.alt .rm-info:after
@@ -1884,7 +1887,7 @@ road map timeline
 
 .roadmap-timeline-list.active .rm-info
 {
-    color: #7954ff; 
+    color: #2a77ff; 
     background: #fff;
 }
 .roadmap-timeline-list.active .rm-info:after
@@ -2570,4 +2573,21 @@ Overrides the default theme styles
 {
     background: -webkit-linear-gradient(230deg, #4a98de 0%, #1ca3ec 100%);
     background:         linear-gradient(220deg, #4a98de 0%, #1ca3ec 100%);
+}
+
+.road-map-bg
+{
+    background: #3a9ee9;
+}
+.road-map-bg:before
+{
+    background-image: -webkit-gradient(linear, right top, left top, from(#2a77ff), to(#2389da));
+    background-image: -webkit-linear-gradient(right, #2a77ff 0%, #2389da 100%);
+    background-image:         linear-gradient(to left, #2a77ff 0%, #2389da 100%);
+}
+.road-map-bg:after
+{
+    background-image: -webkit-gradient(linear, right top, left top, from(#2a77ff), to(#2389da));
+    background-image: -webkit-linear-gradient(right, #2a77ff 0%, #2389da 100%);
+    background-image:         linear-gradient(to left, #2a77ff 0%, #2389da 100%);
 }

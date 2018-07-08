@@ -23,6 +23,7 @@ Table of contents
 -------------------------------*/
 
 @import "variables";
+@import "override-variables";
 @import "types";
 @import "buttons";
 @import "header";
@@ -33,4 +34,4 @@ Table of contents
 @import "footer";
 @import "responsive";
 @import "app";
-@import "overrides";
+@import "override-theme";

@@ -1,0 +1,23 @@
+/*--------------------------------------------
+Overrides the default theme styles
+---------------------------------------------*/
+
+// Creative banner override
+.creative-banner {
+  background: linear-gradient(220deg, rgba(74, 152, 222, 1) 0%, rgba(28, 163, 236, 1) 100%);
+}
+
+// roadmap override
+.road-map-bg {
+  background: $blue-gradient-primary;
+  &:before {
+    background-image: linear-gradient(to left, #2a77ff 0%, #2389da 100%);
+  }
+  &:after {
+    background-image: linear-gradient(to left, #2a77ff 0%, #2389da 100%);
+  }
+}
+
+.roadmap-timeline-list{
+
+}
