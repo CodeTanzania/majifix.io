@@ -2532,3 +2532,42 @@ responsive style
         margin-top: 50px;
     }
 }
+
+/*--------------------------------------
+ Specific application scss
+ ---------------------------------------*/
+.navbar-blue.navbar-sticky
+{
+    position: fixed;
+    top: 0;
+
+    padding-top: 0;
+
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease; 
+
+    background: #1ca3ec;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, .07);
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, .07);
+}
+.navbar-blue.navbar-sticky .nav-item .nav-link
+{
+    color: #fff;
+}
+.navbar-blue.navbar-sticky .nav-item .nav-link:hover
+{
+    color: #4bc3c3;
+}
+.navbar-blue.navbar-sticky .nav-item .active
+{
+    color: #4bc3c3;
+}
+
+/*--------------------------------------------
+Overrides the default theme styles
+---------------------------------------------*/
+.creative-banner
+{
+    background: -webkit-linear-gradient(230deg, #4a98de 0%, #1ca3ec 100%);
+    background:         linear-gradient(220deg, #4a98de 0%, #1ca3ec 100%);
+}
