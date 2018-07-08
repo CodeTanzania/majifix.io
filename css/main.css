@@ -2566,6 +2566,28 @@ responsive style
     color: #4bc3c3;
 }
 
+.btn-blue
+{
+    color: #fff; 
+    background: #1ca3ec;
+}
+.btn-blue:hover
+{
+    color: #fff; 
+    background: #4bc3c3;
+}
+
+.btn-blue-shadow
+{
+    -webkit-box-shadow: 5px 5px 40px 0 rgba(28, 163, 236, .72);
+            box-shadow: 5px 5px 40px 0 rgba(28, 163, 236, .72);
+}
+.btn-blue-shadow:hover
+{
+    -webkit-box-shadow: 5px 5px 40px 0 rgba(110, 220, 170, .72);
+            box-shadow: 5px 5px 40px 0 rgba(110, 220, 170, .72);
+}
+
 /*--------------------------------------------
 Overrides the default theme styles
 ---------------------------------------------*/

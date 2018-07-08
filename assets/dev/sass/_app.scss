@@ -21,3 +21,20 @@
     }
   }
 }
+
+// button
+.btn-blue {
+  background: $blue-color;
+  color: $white;
+  &:hover {
+    background: $secondary-color;
+    color: $white;
+  }
+}
+
+.btn-blue-shadow {
+  box-shadow: 5px 5px 40px 0px rgba(28, 163, 236, .72);
+  &:hover {
+    box-shadow: 5px 5px 40px 0px rgba(110, 220, 170, .72);
+  }
+}
