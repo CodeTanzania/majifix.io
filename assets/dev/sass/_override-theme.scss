@@ -18,6 +18,7 @@ Overrides the default theme styles
   }
 }
 
-.roadmap-timeline-list{
-
+// section
+.feature-gradient {
+  background-image: linear-gradient(to right, $blue-color-light 0%, $blue-gradient-secondary 100%);
 }

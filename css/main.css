@@ -2591,3 +2591,10 @@ Overrides the default theme styles
     background-image: -webkit-linear-gradient(right, #2a77ff 0%, #2389da 100%);
     background-image:         linear-gradient(to left, #2a77ff 0%, #2389da 100%);
 }
+
+.feature-gradient
+{
+    background-image: -webkit-gradient(linear, left top, right top, from(#2daeeb), to(#3a80fa));
+    background-image: -webkit-linear-gradient(left, #2daeeb 0%, #3a80fa 100%);
+    background-image:         linear-gradient(to right, #2daeeb 0%, #3a80fa 100%);
+}
