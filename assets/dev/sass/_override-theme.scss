@@ -22,3 +22,10 @@ Overrides the default theme styles
 .feature-gradient {
   background-image: linear-gradient(to right, $blue-color-light 0%, $blue-gradient-secondary 100%);
 }
+
+// buttons
+.btn-white {
+  &:hover {
+    background-color: $blue-color-deep;
+  }
+}

@@ -2620,3 +2620,8 @@ Overrides the default theme styles
     background-image: -webkit-linear-gradient(left, #2daeeb 0%, #3a80fa 100%);
     background-image:         linear-gradient(to right, #2daeeb 0%, #3a80fa 100%);
 }
+
+.btn-white:hover
+{
+    background-color: #2a77ff;
+}
