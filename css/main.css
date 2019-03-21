@@ -1577,6 +1577,12 @@ form
     color: #fff;
 }
 
+.subscribe-from .form-control:-moz-placeholder
+{
+    opacity: 1; 
+    color: #fff;
+}
+
 .subscribe-from .form-control::-moz-placeholder
 {
     opacity: 1; 
